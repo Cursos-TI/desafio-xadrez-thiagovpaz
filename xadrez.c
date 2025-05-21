@@ -26,6 +26,18 @@ int main() {
         r++;
     }
     while (r < 8);
+
+    // Cavalo
+    printf("Cavalo \n");
+    int cx = 0, cy = 0;
+
+    for(int cy = 0; cy < 1; cy++) {
+        while(cx < 2) {
+            printf("Cima \n");
+            cx++;
+        }
+        printf("Direita \n");
+    }
     
 
     return 0;
